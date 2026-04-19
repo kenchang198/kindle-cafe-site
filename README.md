@@ -40,6 +40,10 @@ git clone https://github.com/kenchang198/kindle-cafe-site.git
 
 HTML ファイルをダブルクリックするか、VSCode の Live Server 拡張機能を使うとリアルタイムプレビューができる。
 
+## 画像アセット
+
+本リポジトリは placehold.co のプレースホルダー画像で初期化されており、実画像への差し替えは任意のタイミングで行う。必要なファイル名・サイズ・差し替え手順は [`images/README.md`](images/README.md) を参照のこと。
+
 ## ライセンス
 
 [MIT License](LICENSE)
