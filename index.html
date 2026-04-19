@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cafe Kogumo ― 三軒茶屋の街角カフェ</title>
+  <meta name="description" content="三軒茶屋の路地裏にある、小さな雲のようにふっとひと息つけるカフェ。自家焙煎コーヒーと手作りスイーツをご用意しています。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-logo" href="index.html">Cafe Kogumo<span>SANGENJAYA</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+      <nav class="global-nav" id="global-nav" aria-label="グローバル">
+        <ul class="global-nav__list">
+          <li><a class="global-nav__link is-current" href="index.html">Home</a></li>
+          <li><a class="global-nav__link" href="menu.html">Menu</a></li>
+          <li><a class="global-nav__link" href="access.html">Access</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="ヒーロー">
+      <div class="hero__inner">
+        <p class="hero__copy">小さな雲のように、<br>ふっとひと息つける場所へ。</p>
+        <p class="hero__sub">Cafe Kogumo ― Sangenjaya</p>
+        <a class="button" href="menu.html">メニューを見る</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title"><span class="section__title-en">ABOUT</span>お店について</h2>
+        <p class="section__lead">カフェ コグモは三軒茶屋の路地裏にある、木の温もりと間接照明に包まれた小さなカフェです。</p>
+        <div class="about">
+          <figure>
+            <img src="https://placehold.co/800x600/E8C07D/2E2720?text=About+Photo" alt="店内の様子">
+          </figure>
+          <div class="about__text">
+            <p>朝は出勤前の一杯を、昼はゆっくりとブランチを、夜は読書のお供に。Wi-Fi と電源を完備し、ひとりの時間にも仲間との語らいにも寄り添います。</p>
+            <p>自家焙煎のコーヒー豆は日替わりのシングルオリジンを含め 4 種類。軽食とスイーツは店内で手作りしています。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <h2 class="section__title"><span class="section__title-en">FEATURED</span>おすすめメニュー</h2>
+        <ul class="featured-list">
+          <li class="featured-item">
+            <img class="featured-item__image" src="https://placehold.co/600x450/6B4F3B/FAF5EF?text=Hand+Drip" alt="ハンドドリップブレンド">
+            <p class="featured-item__name">ハンドドリップ ブレンド</p>
+            <p class="featured-item__price">¥440</p>
+          </li>
+          <li class="featured-item">
+            <img class="featured-item__image" src="https://placehold.co/600x450/E8C07D/2E2720?text=Quiche" alt="自家製キッシュとサラダ">
+            <p class="featured-item__name">自家製キッシュ&amp;サラダ</p>
+            <p class="featured-item__price">¥1,180</p>
+          </li>
+          <li class="featured-item">
+            <img class="featured-item__image" src="https://placehold.co/600x450/2E2720/FAF5EF?text=Cheesecake" alt="ベイクドチーズケーキ">
+            <p class="featured-item__name">ベイクドチーズケーキ</p>
+            <p class="featured-item__price">¥520</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="site-footer__logo">Cafe Kogumo</p>
+      <p>東京都世田谷区三軒茶屋 1-1-1（架空）</p>
+      <ul class="site-footer__sns">
+        <li><a href="#">Instagram</a></li>
+      </ul>
+      <p class="site-footer__small">&copy; 2026 Cafe Kogumo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/menu-toggle.js"></script>
+</body>
+</html>
